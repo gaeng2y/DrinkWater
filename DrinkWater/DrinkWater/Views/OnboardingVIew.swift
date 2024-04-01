@@ -35,9 +35,6 @@ struct OnboardingVIew: View {
                     .padding(.horizontal, 100)
                     .padding(.bottom, 50)
                 
-                Text("하루에 @리터")
-                    .padding(.bottom, 50)
-                
                 Button {
                     
                 } label: {
@@ -57,6 +54,6 @@ extension OnboardingVIew: GlassOfWaterSettable {
     func setGlassOfWater(with input: String) {
         isFirstLaunching.toggle()
         
-        let totalDrinkOfWater: Float = Float(250 * Int(input)
+//        let totalDrinkOfWater: Float = Float(250 * Int(input)
     }
 }
